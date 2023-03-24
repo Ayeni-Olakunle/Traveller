@@ -1,0 +1,756 @@
+* {
+  font-family: "Noto Sans SC";
+  margin: 0;
+  padding: 0;
+}
+
+.holdHeader {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.holdLogo {
+  padding-left: 60px;
+}
+.logo {
+  height: 65px;
+  cursor: pointer;
+}
+
+.holdNav {
+  padding-right: 60px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3359b0;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #3359b0;
+}
+
+.holdHeros {
+  width: 100%;
+  height: 85vh;
+  margin-top: -503px;
+}
+
+.holdHeros2 {
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+}
+
+.holdHeros2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.holdHeros3 {
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: linear-gradient(
+    360deg,
+    rgba(51, 89, 176, 0.88) 15.73%,
+    rgba(51, 89, 176, 0) 78.51%
+  );
+}
+
+.holdHeros4 {
+  width: 600px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.holdHeros4 h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 75px;
+  color: #ffffff;
+}
+
+.holdHeros4 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 560px;
+  margin: 10px 0;
+}
+
+.holdHeros4 span {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  border-left: 2px solid #e98d37;
+  border-right: 2px solid #e98d37;
+  padding: 0 10px;
+}
+
+.holdHeros5 {
+  width: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 5;
+  top: 88px;
+  left: 700px;
+  box-shadow: 5px 5px 5px #f1f1f1, -5px -5px 5px #f1f1f1;
+}
+
+.holdButton {
+  margin-top: 12px;
+}
+
+.holdButton button {
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid #e98d37;
+  border-radius: 5px;
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-size: 12px;
+  color: #3359b0;
+  font-weight: 500;
+}
+
+.Checkmore {
+  background-color: #e98d37 !important;
+  color: white !important;
+}
+
+.holdFormTop {
+  background-color: #3359b0;
+  padding: 20px 30px;
+  color: white;
+}
+
+.holdFormTop h4 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+}
+
+.holdFormTop p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+}
+
+.holdFormSecond {
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.holdFormKoko {
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.holdFormKoko input {
+  width: 100%;
+  color: gray;
+  border: none;
+  outline: none;
+}
+
+.holdFormKoko select {
+  width: 100%;
+  color: gray;
+  border: none;
+  outline: none;
+}
+
+.catch {
+  height: 50px;
+}
+
+.startCatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.startCatch button {
+  background: #e08735;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+.holdBoxes {
+  width: 100%;
+  height: auto;
+}
+
+.holdBoxes1 {
+  width: 600px;
+  margin-left: 60px;
+}
+
+.holdBoxes2 {
+  margin-top: 50px;
+}
+
+.HowDoes {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #3359b0;
+  width: 400px;
+}
+
+.right1 {
+  border-left: 2px solid #e98d37;
+  padding-left: 10px;
+}
+
+.right2 {
+  border-right: 2px solid #e98d37;
+  padding-right: 10px;
+}
+
+.holdSmaillBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 420px;
+}
+
+.holdSmaillBoxes1 {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+  background: #d7e3ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.holdSmaillBoxes1 h3 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #3359b0;
+  margin-bottom: 10px;
+}
+
+.holdSmaillBoxes1 p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3359b0;
+}
+
+.hold1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  margin: 0;
+}
+
+.hold1 img {
+  height: 20px;
+  width: 40px;
+}
+
+.PracticeAreas {
+  height: 80vh;
+  width: 100%;
+  background-color: #edf2ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.h1Practice {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #3359b0;
+  border-left: 2px solid #e98d37;
+  padding-left: 20px;
+  border-right: 2px solid #e98d37;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.PracticeAreasHold {
+  width: 450px;
+  margin-left: 80px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #3359b0;
+  line-height: 40px;
+  width: 340px;
+  margin: 20px 0;
+}
+
+.list ul li {
+  font-size: 17px;
+  color: #3359b0;
+  padding: 10px 0;
+}
+
+.list ul li span {
+  margin-right: 10px;
+  color: #e08735;
+}
+
+.Testimonials {
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.kol1 {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.kol2 {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.Rebecca {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #e08735;
+}
+
+.Ellipse10 {
+  height: 350px;
+  position: absolute;
+  margin-top: -290px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.smallCircle {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.frequency {
+  height: 80vh;
+  width: 100%;
+  background-color: #edf2ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.frequency2 {
+  width: 450px;
+  margin-left: 80px;
+}
+
+.freH1 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #3359b0;
+  border-left: 2px solid #e98d37;
+  padding-left: 20px;
+  border-right: 2px solid #e98d37;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.freP {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  color: #3359b0;
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.frequentlyKOKo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.frequentlyKOKo2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.TomCircle {
+  width: 10px;
+  height: 10px;
+  background-color: #e08735;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.TomCircleR {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  color: #7c7c7c;
+  width: 370px;
+}
+
+.imageKon {
+  height: 20px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+}
+
+.ReadAnswers {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.holdImage {
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  z-index: -1;
+}
+.holdImage img {
+  width: 100%;
+  height: 150vh;
+}
+
+.Readfor {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #3359b0;
+  border-left: 2px solid #e98d37;
+  padding-left: 20px;
+  border-right: 2px solid #e98d37;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.holdReadMe {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.holdReadMe {
+  width: 610px;
+  margin-left: 80px;
+}
+
+.holdChat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.holdChapter {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.holdChapter h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  color: #3359b0;
+  font-weight: bold;
+}
+
+.holdChapter p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+.holdChapter img {
+  height: 13px;
+}
+
+.holdFooter {
+  background: #3359b0;
+  border: 1px solid #000000;
+}
+
+.holdFirstHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.holdFirstHead h1 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #e98d37;
+  margin-top: 40px;
+}
+
+.holdFirstHead p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #e98d37;
+  width: 500px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.quickLink {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.quickLink2 {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.quickLinkHome h1 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.unorderList {
+  list-style: none;
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.Startchat {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.Startchat2 {
+  height: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.Startchat2H1 {
+  font-size: 20px;
+  color: white;
+}
+
+.Startchat2P {
+  width: 150px;
+  color: white;
+}
+
+.holdFollowHead {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.holdSocialMedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.holdSocialMedia img {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.H1Email {
+  font-size: 20px;
+  color: white;
+}
+
+.H1p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.term {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.term2 {
+  width: 900px;
+}
+
+.termofuse {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 40px;
+  color: #abc5ff;
+  margin-bottom: 5px;
+}
+
+.theInfo {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #abc5ff;
+  margin-bottom: 20px;
+}
+
+.copyRight {
+  border-top: 0.5px solid white;
+  padding: 10px;
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #abc5ff;
+  text-align: center;
+  margin: 0;
+}
