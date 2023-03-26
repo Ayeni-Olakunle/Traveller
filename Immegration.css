@@ -131,8 +131,9 @@
   position: -webkit-sticky;
   z-index: 5;
   top: 88px;
-  left: 700px;
+  left: 100%;
   box-shadow: 5px 5px 5px #f1f1f1, -5px -5px 5px #f1f1f1;
+  margin-right: 40px;
 }
 
 .holdButton {
@@ -592,7 +593,8 @@
 
 .holdFooter {
   background: #3359b0;
-  border: 1px solid #000000;
+  position: absolute;
+  width: 100%;
 }
 
 .holdFirstHead {
