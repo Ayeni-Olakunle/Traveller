@@ -5,7 +5,7 @@
 }
 
 .holdHeader {
-  height: 15vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@
 
 .holdHeros3 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -133,7 +133,7 @@
   top: 88px;
   left: 100%;
   box-shadow: 5px 5px 5px #f1f1f1, -5px -5px 5px #f1f1f1;
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 .holdButton {
