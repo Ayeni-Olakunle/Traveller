@@ -404,7 +404,7 @@
 }
 
 .Ellipse10 {
-  height: 350px;
+  height: 100%;
   position: absolute;
   margin-top: -290px;
   z-index: -1;
@@ -421,7 +421,7 @@
 }
 
 .frequency {
-  padding: 70px 0;
+  padding: 120px 0;
   height: auto;
   width: 100%;
   background-color: #edf2ff;
