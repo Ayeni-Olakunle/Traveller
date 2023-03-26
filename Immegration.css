@@ -124,6 +124,7 @@
 }
 
 .holdHeros5 {
+  display: block;
   width: 450px;
   border-radius: 5px;
   overflow: hidden;
@@ -781,6 +782,10 @@
   display: none !important;
 }
 
+.holdHeros5TATA5 {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .holdHeader {
     height: 8vh;
@@ -864,12 +869,13 @@
   }
 
   .holdButton {
-    padding: 10px;
+    padding: 10px 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 20px;
+    column-gap: 10px;
   }
 
   .holdBoxes1 {
@@ -1065,5 +1071,37 @@
   .theInfo {
     text-align: justify;
     padding: 15px;
+  }
+
+  .holdHeros5 {
+    display: none;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .holdFormTop {
+    margin: 10px;
+  }
+
+  .holdFormSecond {
+    margin: 10px;
+  }
+
+  .holdHeros5TATA {
+    display: none;
+  }
+
+  .holdHeros5TATA5 {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 5;
+    top: 175px;
+    left: 100%;
+    box-shadow: 5px 5px 5px #f1f1f1, -5px -5px 5px #f1f1f1;
   }
 }
