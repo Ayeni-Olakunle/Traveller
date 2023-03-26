@@ -4,8 +4,18 @@ function clickMe2(value) {
         document.getElementById("imag" + value).style.transform = "rotate(180deg)";
     }
     else {
-        document.getElementById("clickMe" + value).style.height = "0px"
+        document.getElementById("clickMe" + value).style.height = "0px";
         document.getElementById("clickMe" + value).style.overflow = "hidden";
         document.getElementById("imag" + value).style.transform = "rotate(0deg)";
+    }
+}
+
+
+
+document.getElementById("bars").onclick = () => {
+    if (document.getElementById("holdNav").className == "holdNav12") {
+        document.getElementById("holdNav").className = "holdNav12s";
+    } else {
+        document.getElementById("holdNav").className = "holdNav12";
     }
 }

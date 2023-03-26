@@ -772,3 +772,298 @@
   color: #7c7c7c;
   transition: 0.5s;
 }
+
+.holdNav12 {
+  display: block;
+}
+
+.fa {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .holdHeader {
+    height: 8vh;
+  }
+  .holdLogo {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .holdNav {
+    padding: 0;
+  }
+
+  .navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #d7d7d7;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px 0;
+    right: 0;
+    top: 50px;
+  }
+
+  .fa {
+    display: block !important;
+    font-size: 30px !important;
+    color: dimgrey !important;
+    margin-right: 10px;
+  }
+
+  .navList li {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .holdNav12s {
+    display: none;
+  }
+
+  .holdHeros {
+    margin: 0;
+    height: 500px;
+  }
+
+  .holdHeros2f {
+    height: 500px;
+  }
+
+  .holdHeros3 {
+    height: 500px;
+  }
+
+  .holdHeros4 {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+
+  .holdHeros2 img {
+    height: 500px;
+  }
+
+  .holdHeros4 h1 {
+    font-size: 30px;
+    line-height: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .holdHeros4 p {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .holdButton {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .holdBoxes1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .holdBoxes2 {
+    margin-top: 20px;
+  }
+
+  .holdBoxes1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .holdBoxes2 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .HowDoes {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  .holdSmaillBoxes {
+    margin: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .holdSmaillBoxes1 {
+    width: 85%;
+  }
+
+  .PracticeAreas {
+    justify-content: center;
+    height: auto;
+  }
+
+  .PracticeAreasHold {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .h1Practice {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .list {
+    margin: 20px 0;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .Testimonials {
+    height: auto;
+    margin: 40px 0;
+  }
+
+  .Ellipse10 {
+    height: auto;
+    margin-top: -264px;
+  }
+
+  .frequency2 {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .frequency2Now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .freH1 {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .freP {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .TomCircleR {
+    width: 100%;
+  }
+
+  .frequency {
+    padding: 30px 0;
+  }
+
+  .ReadAnswers {
+    height: 170vh;
+    padding: 50px 0;
+  }
+
+  .holdImage {
+    height: 170vh;
+  }
+
+  .holdImage img {
+    height: 170vh;
+    padding: 70px 0;
+  }
+
+  .holdReadMe {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .holdReadMeNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Readfor {
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .holdChat {
+    justify-content: center;
+  }
+
+  .holdFirstHead {
+    padding: 30px;
+  }
+
+  .holdFirstHead h1 {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .holdFirstHead p {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .quickLink2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+  }
+
+  .holdSocialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  .Startchat {
+    justify-content: center;
+    margin: 40px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Startchat2 {
+    height: 30px;
+    margin: 10px 0;
+  }
+
+  .termofuse {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .theInfo {
+    text-align: justify;
+    padding: 15px;
+  }
+}
