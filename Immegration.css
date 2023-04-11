@@ -4,6 +4,21 @@
   padding: 0;
 }
 
+.wish {
+  height: 0px;
+  overflow: hidden;
+}
+
+.hasexpired {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.imageKon2 {
+  transform: rotate(0deg);
+}
+
 .holdHeader {
   height: 12vh;
   width: 100%;
