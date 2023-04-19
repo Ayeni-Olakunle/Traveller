@@ -274,8 +274,7 @@
 }
 
 .holdBoxes1 {
-  width: 600px;
-  margin-left: 60px;
+  width: 100%;
 }
 
 .holdBoxes2 {
@@ -288,12 +287,14 @@
   font-weight: 500;
   font-size: 28px;
   color: #3359b0;
-  width: 400px;
+  text-align: center;
 }
 
 .right1 {
   border-left: 2px solid #e98d37;
+  border-right: 2px solid #e98d37;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .right2 {
@@ -303,22 +304,22 @@
 
 .holdSmaillBoxes {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 0;
   flex-wrap: wrap;
-  gap: 20px;
-  width: 420px;
+  gap: 60px;
+  width: 100%;
 }
 
 .holdSmaillBoxes1 {
   width: 180px;
-  height: 200px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   flex-direction: column;
-  background: #d7e3ff;
+  /* background: #d7e3ff; */
   border-radius: 10px;
   padding: 10px;
 }
@@ -326,11 +327,17 @@
 .holdSmaillBoxes1 h3 {
   font-family: "Noto Sans SC";
   font-style: normal;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   align-items: center;
   color: #3359b0;
-  margin-bottom: 10px;
+  margin: 10px 0;
+}
+
+.p1Imafe {
+  height: 190px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .holdSmaillBoxes1 p {
@@ -338,7 +345,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #3359b0;
+  color: #565656;
 }
 
 .hold1 {
@@ -359,7 +366,7 @@
   width: 100%;
   background-color: #edf2ff;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -373,13 +380,23 @@
   padding-left: 20px;
   border-right: 2px solid #e98d37;
   padding-right: 20px;
-  margin-bottom: 30px;
   width: fit-content;
+  margin-bottom: 90px;
+}
+
+.holdH1Practice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .PracticeAreasHold {
-  width: 450px;
-  margin-left: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .list {
@@ -393,12 +410,13 @@
 
 .list p {
   font-family: "Noto Sans SC";
+  text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   color: #3359b0;
   line-height: 40px;
-  width: 340px;
+  width: 500px;
   margin: 20px 0;
 }
 
@@ -441,20 +459,46 @@
 }
 
 .Ellipse10 {
-  height: 100%;
+  height: 56%;
   position: absolute;
-  margin-top: -290px;
+  margin-top: 220px;
   z-index: -1;
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 
 .smallCircle {
-  width: 200px;
+  width: 70px;
+  height: 10px;
+  margin-top: 20px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+}
+
+.smallCircle div {
+  width: 10px;
+  height: 10px;
+  background-color: #eaebff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.smallCirclekokoQ {
+  width: 10px;
+  height: 10px;
+  background-color: #8085cd !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.smallCirclekokoQ {
+  width: 10px;
+  height: 10px;
+  background-color: #8085cd;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .frequency {
@@ -463,13 +507,12 @@
   width: 100%;
   background-color: #edf2ff;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
 .frequency2 {
-  width: 450px;
-  margin-left: 80px;
+  width: 900px;
 }
 
 .freH1 {
@@ -495,15 +538,42 @@
   align-items: center;
   color: #3359b0;
   width: 450px;
+  text-align: center;
   margin-bottom: 30px;
+}
+
+.LocationsJK {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LocationsJK2 {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.LocationsJK2 ul {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .frequentlyKOKo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 10px 20px;
   align-items: baseline;
   background-color: white;
-  padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -514,6 +584,80 @@
   align-items: baseline;
 }
 
+.holdGentlemen {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.holdGentlemen img {
+  height: 100%;
+  width: 100%;
+}
+
+.holdGentlemen2 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    270deg,
+    #ffffff 27.58%,
+    rgba(255, 255, 255, 0) 58.11%
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.holdGentlemen2WQ {
+  padding: 0 90px;
+}
+
+.holdGentlemen2WQ h2 {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: #3359b0;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.holdGentlemen2WQ p {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #e08735;
+}
+
+.inputGbe6 {
+  background: #ffffff;
+  box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+}
+
+.inputGbe612 {
+  background: #e08735;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+}
+
+.freH1Asked {
+  display: flex;
+  justify-content: center;
+}
 .TomCircle {
   width: 10px;
   height: 10px;
@@ -529,7 +673,7 @@
   font-size: 13px;
   line-height: 25px;
   color: #7c7c7c;
-  width: 370px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -539,20 +683,6 @@
   margin-left: 10px;
 }
 
-.ReadAnswers {
-  width: 100%;
-  height: 150vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.holdImage {
-  width: 100%;
-  height: 150vh;
-  position: absolute;
-  z-index: -1;
-}
 .holdImage img {
   width: 100%;
   height: 150vh;
@@ -571,65 +701,6 @@
   margin-bottom: 30px;
   width: fit-content;
 }
-
-.holdReadMe {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.holdReadMe {
-  width: 610px;
-  margin-left: 80px;
-}
-
-.holdChat {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.holdChapter {
-  background-color: white;
-  padding: 20px;
-  width: 250px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.holdChapter h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  color: #3359b0;
-  font-weight: bold;
-}
-
-.holdChapter p {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
-  color: #7c7c7c;
-  margin-bottom: 10px;
-}
-
-.holdChapter img {
-  height: 13px;
-}
-
 .holdFooter {
   background: #3359b0;
   position: absolute;
@@ -753,49 +824,6 @@
   color: #ffffff;
 }
 
-.term {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.term2 {
-  width: 900px;
-}
-
-.termofuse {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 40px;
-  color: #abc5ff;
-  margin-bottom: 5px;
-}
-
-.theInfo {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  color: #abc5ff;
-  margin-bottom: 20px;
-}
-
-.copyRight {
-  border-top: 0.5px solid white;
-  padding: 10px;
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #abc5ff;
-  text-align: center;
-  margin: 0;
-}
-
 .TomP1Circle {
   height: 0;
   overflow: hidden;
@@ -822,7 +850,106 @@
   display: none;
 }
 
+.copyRight {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.holdLine {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holdLineDF {
+  width: 900px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holdLine2 {
+  height: 1px;
+  width: 400px;
+  background-color: white;
+}
+
+.holdLine3 {
+  height: 1px;
+  width: 200px;
+  background-color: white;
+}
+
+.Followus {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.Followus2 {
+  height: 30px;
+}
+
+.Followus2s {
+  height: 30px;
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 1200px) {
+  .holdLineDF {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .holdLine2 {
+    display: none;
+  }
+
+  .holdLine3 {
+    display: none;
+  }
+
+  .holdGentlemen {
+    height: 60vh;
+  }
+
+  .holdGentlemen2 {
+    height: 60vh;
+  }
+
+  .holdGentlemen2WQ {
+    padding: 10px;
+  }
+
+  .LocationsJK2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+    width: 100%;
+  }
+
+  .holdGentlemen2WQ h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputGbe6 {
+    width: 90%;
+  }
+
   .FoundedbyDO {
     display: flex;
     justify-content: center;
@@ -1004,6 +1131,10 @@
     width: 90%;
   }
 
+  .list p {
+    width: 100%;
+  }
+
   .Testimonials {
     height: auto;
     margin: 40px 0;
@@ -1063,22 +1194,6 @@
   .holdReadMe {
     width: 100%;
     margin: 0;
-    justify-content: center;
-  }
-
-  .holdReadMeNow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .Readfor {
-    text-align: center;
-    font-size: 23px;
-  }
-
-  .holdChat {
     justify-content: center;
   }
 
